@@ -8,7 +8,7 @@
         "build": "(cd nuxt && yarn build) && cd .. && (cd strapi && yarn build)",
         "start": "pm2 start ecosystem.config.js",
         "unload": "pm2 delete ecosystem.config.js",
-        "develop": "pm2 start ecosystem.config.js --no-daemon --env development",
+        "develop": "pm2 start ecosystem.config.js --env development && pm2 logs nustra",
         "postinstall": "(cd nuxt && yarn install) && cd .. && (cd strapi && yarn install)"
     }
 }
