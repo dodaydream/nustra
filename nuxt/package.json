@@ -12,10 +12,14 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/strapi": "^1.9.3",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@tailwindcss/typography": "^0.5.9",
     "@types/node": "^18",
+    "dayjs-nuxt": "^1.1.2",
     "nuxt": "^3.6.1"
   },
   "dependencies": {
+    "marked": "^5.1.0",
     "open": "^9.1.0"
   }
 }
